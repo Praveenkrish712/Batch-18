@@ -5,7 +5,7 @@ HTML - Hyper text markup language - <head> content </head>
 * To create a web page
 * Every website can start with HTML
 
-self closing tag - Meta, hr, br, img
+self closing tag - Meta, hr, br, img, input
 
 1) Heading - h1 to h6
 
@@ -24,3 +24,9 @@ self closing tag - Meta, hr, br, img
 8) List - ordered list and unordered list
 
 9) Tables - tr, th and td
+
+10) forms - input, placeholder, type, required, label
+
+11) Media elements - Video and Audio
+
+12) Sematic Tags - Header, footer, section, nav, and main
