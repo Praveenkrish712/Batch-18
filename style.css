@@ -1,0 +1,26 @@
+*{
+    background-color: gray;
+}
+
+h1{
+    color: hotpink;
+}
+
+h2{
+    color: aqua;
+}
+
+.Selector > h1{
+    color: greenyellow;
+}
+
+#Box > h2{
+    color: brown;
+}
+
+.boxes > h1,
+.boxes > h2,
+.boxes > h3,
+.boxes > h4 {
+    color: yellow;
+}

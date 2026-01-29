@@ -5,7 +5,7 @@ HTML - Hyper text markup language - <head> content </head>
 * To create a web page
 * Every website can start with HTML
 
-self closing tag - Meta, hr, br, img, input
+self closing tag - Meta, hr, br, img, input, link
 
 1) Heading - h1 to h6
 
@@ -30,3 +30,25 @@ self closing tag - Meta, hr, br, img, input
 11) Media elements - Video and Audio
 
 12) Sematic Tags - Header, footer, section, nav, and main
+
+
+
+CSS - Cascading style sheet
+
+1) Types of CSS
+==> inline CSS
+==> internal CSS
+==> External CSS
+inline > internal > External
+
+2) CSS Syntax
+selector{
+    property: value;
+}
+
+3) Types of selector
+==> Elements selector - (h1) (h2) (p)
+==> Class selector - (.) - (Multiple) - no of times we can use the same class name
+==> Id selector - (#) - (Unique) - Only one time we can use the same id name
+==> Universal selector - (*) - Apply the style to the entire site 
+==> Group selector - class or id selector contains different tags. we have to use same style means we go with Group selector
