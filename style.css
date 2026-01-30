@@ -1,26 +1,63 @@
 *{
-    background-color: gray;
+    /* background-color: gray; */
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 h1{
-    color: hotpink;
+    color: #5ce028;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    font-size: 50px;
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: line-through;
+    font-weight: 900;
+    /* line-height: .1; */
+    letter-spacing: 1px;
+    /* background-color: greenyellow; */
+
+
 }
 
 h2{
     color: aqua;
 }
-
+/* 
 .Selector > h1{
     color: greenyellow;
-}
+} */
 
 #Box > h2{
     color: brown;
 }
-
+/* 
 .boxes > h1,
 .boxes > h2,
 .boxes > h3,
 .boxes > h4 {
     color: yellow;
+} */
+
+p{
+    color: white;
+    background-image: url(./Assets/28-22-5-2-4-20-55m.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.Box-modeling{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    /* ding-left: 20px;
+    padding-top: 50px;pad */
+    padding: 20px 40px 60px 80px;
+    /* border-top: 20px solid black;
+    border-bottom: 20px solid forestgreen; */
+    border: 10px solid black;
+    /* margin-left: 100px;
+    margin-top: 200px; */
+    margin: 30px 50px 70px 90px;
 }

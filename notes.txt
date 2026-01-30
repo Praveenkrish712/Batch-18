@@ -52,3 +52,33 @@ selector{
 ==> Id selector - (#) - (Unique) - Only one time we can use the same id name
 ==> Universal selector - (*) - Apply the style to the entire site 
 ==> Group selector - class or id selector contains different tags. we have to use same style means we go with Group selector
+
+4)colors and background
+
+==> colors
+1) name
+2) RGB
+3) HEX
+
+==> background
+background-color: greenyellow;
+background-image: url(./Assets/28-22-5-2-4-20-55m.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+
+5) Text Styling
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: line-through;
+    font-weight: 900;
+    line-height: .1;
+    letter-spacing: 1px;
+
+6) Box Modeling 
+==> Content
+==> Padding
+==> Border
+==> Margin
