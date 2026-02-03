@@ -93,3 +93,10 @@ vi) gap - to be assign with values (px,%,rem,cm,m,vw,vh)
 vii) Align content (Y) (set the height) (enable the flex-wrap) - Start, center, end, Space-evenly, Space-around, Space-Between
 viii) Flex (on item) - flex:1 
 viv) order - Change the visual order of the property
+
+8) Position - Moveing one place to Another place
+==> Static - default
+==> Relative - one place to Another place
+==> absolute - it will search the non-Static parent, if is there means it will act as same Relative, no means it will search one more(on one is non-Static means it will go to the root(body))
+==> fixed - it will be fixed to the area
+==> Sticky - using top:0 Praperty once reach the limit it will act as a same fixed
