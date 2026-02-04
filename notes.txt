@@ -100,3 +100,18 @@ viv) order - Change the visual order of the property
 ==> absolute - it will search the non-Static parent, if is there means it will act as same Relative, no means it will search one more(on one is non-Static means it will go to the root(body))
 ==> fixed - it will be fixed to the area
 ==> Sticky - using top:0 Praperty once reach the limit it will act as a same fixed
+
+9) Grid(display) - two dimensional layout system
+i) grid-template-column: px,% (mostly fr), repeat() and minmax()
+ii) grid-template-rows: px,% (mostly fr), repeat() and minmax()
+iii) grid-column-start: 1; (starting value)
+iv) grid-column-end: 4; (end value)
+v) grid-column: 1/3 (starting value / end value) span 2,3,4
+vi) grid-row-start: 1; (starting value)
+vii) grid-row-end: 4; (end value)
+viii) grid-row: 1/3 (starting value / end value) span 2,3,4
+viv) grid-template-area:
+    "h h h"
+    "sb1 m sb2"
+    "f f f";
+vv)  grid-area: h;
