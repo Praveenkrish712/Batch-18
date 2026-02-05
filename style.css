@@ -251,3 +251,90 @@ h1{
 .sidebar2{
     grid-area: sb2;
 }
+
+.square{
+    width: 300px;
+    height: 300px;
+    background-color: aqua;
+    transition-duration: 5s;
+    transition-property: all;
+    transition-timing-function: linear;
+    /* transition-delay: 3s; */
+}   
+
+.square:hover{
+    width: 600px;
+    background-color: green;
+    transform: translateX(20px);
+}
+
+.square2{
+    width: 100px;
+    height: 100px;
+    background-color: coral;
+    border-radius: 50%;
+    animation-name: circle;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    position: relative;
+}
+
+@keyframes circle {
+    25%{
+        width: 200px;
+        height: 200px;
+        background-color: violet;
+        left: 5px;
+        top: 5px;
+    }
+    50%{
+        width: 300px;
+        height: 300px;
+        background-color: brown;
+        left: 10px;
+        top: 10px;
+    }
+    75%{
+        width: 400px;
+        height: 400px;
+        background-color: darkgray;
+        left: 15px;
+        top: 15px;
+    }
+    100%{
+        width: 500px;
+        height: 500px;
+        background-color: blue;
+        left: 20px;
+        top: 20px;
+    }
+}
+
+@media screen and (max-width:800px) {
+    h1{
+        color: red;
+        background-color: black;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:600px) {
+    h2{
+        color: violet;
+        background-color: gray;
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+}
+
+@media screen and (max-width:400px) {
+    p{
+        color: forestgreen;
+        background-color: darkblue;
+        text-align: center;
+        text-decoration: underline;
+        text-transform: capitalize;
+        width: 90%;
+    }
+}

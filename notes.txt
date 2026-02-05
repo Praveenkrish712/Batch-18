@@ -115,3 +115,25 @@ viv) grid-template-area:
     "sb1 m sb2"
     "f f f";
 vv)  grid-area: h;
+
+10) transtion and Animation
+==> transtion - Whenever we affect the particular item it will change some action
+    transition-duration: 5s;
+    transition-property: all;
+    transition-timing-function: ease-in, ease-out, ease-in-out, linear
+    transition-delay: 3s;
+
+==> transform - rotateX(), Scale(), Translate()
+
+==> Animation - Whenever the site will reload/refresh some action will do
+--~ we have to set the values like from and to or 25%,50%,75%,100%
+--~ using Keyframes replace the animation name into the indientifier
+    animation-name: circle;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+
+11) Media Queries OR Responsive Design
+==> mobile - 320px to 600px
+==> tablet - 601px to 800px
+==> lap/desktop - above 801px
